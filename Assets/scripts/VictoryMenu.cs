@@ -7,6 +7,7 @@ public class VictoryMenu : MonoBehaviour
 {
     public string mainMenuScene = "MainMenuScene"; // กลับหน้าเมนูหลัก
     public string SampleScene = "SampleScene"; // เล่นใหม่
+    public string EndCreditsScene = "EndCreditsScene";
 
     public void RestartGame()
     {
@@ -16,5 +17,10 @@ public class VictoryMenu : MonoBehaviour
     public void GoToMainMenu()
     {
         SceneManager.LoadScene(mainMenuScene);
+    }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene(EndCreditsScene);
     }
 }

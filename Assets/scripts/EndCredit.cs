@@ -8,7 +8,7 @@ using System.Collections;
 public class EndCredit : MonoBehaviour
 {
     public TMP_Text creditText; // อ้างอิงถึง UI Text
-    public float scrollSpeed = 20f; // ความเร็วในการเลื่อนข้อความ
+    public float scrollSpeed = 25f; // ความเร็วในการเลื่อนข้อความ
     //public float endDelay = 1f; // ระยะเวลาหลังจากเครดิตจบก่อนกลับหน้าเมนู
     
     private Vector3 startPos;
