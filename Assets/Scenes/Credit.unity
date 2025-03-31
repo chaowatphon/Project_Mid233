@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f54d6d7205030e941bbd5cc31d663d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayTime: 1.5
+  displayTime: 5
   creditImage: {fileID: 1151372960}
 --- !u!114 &416953280
 MonoBehaviour:

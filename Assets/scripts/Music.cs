@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Music : MonoBehaviour
+{
+    public class MusicPlayer : MonoBehaviour
+    {
+        public AudioSource audioSource;
+
+        void Start()
+        {
+            audioSource.Play(); // เล่นเพลงเมื่อเกมเริ่ม
+        }
+    }
+}

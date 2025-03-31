@@ -18,8 +18,10 @@ public class EndCredit : MonoBehaviour
         // ตั้งข้อความเครดิต
         creditText.text = "End Credit\n\n";
         creditText.text += "Developed by: Chaowat Phonmak as Developer\n";
-        creditText.text += "                        Phonsavanh Phanthilath as \n";
+        creditText.text += "                        Phonsavanh Phanthilath as Level Design \n";
         creditText.text += "Music by: SUNO AI\n";
+        creditText.text += "City and Cars by: Syoma Pozeev\n";
+        creditText.text += "SkyBox by: BOXOPHOBIC\n";
         creditText.text += "Special Thanks to: Dr.Wiyada Thitimajshima\n";
         creditText.text += "\nPress ESC to exit.";
 

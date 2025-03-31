@@ -9,6 +9,7 @@ public class VictoryMenu : MonoBehaviour
     public string SampleScene = "SampleScene"; // เล่นใหม่
     public string EndCreditsScene = "EndCreditsScene";
 
+    
     public void RestartGame()
     {
         SceneManager.LoadScene(SampleScene);
